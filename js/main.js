@@ -162,18 +162,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  //popup section
-  const openPopup = document.querySelectorAll(".open_popup");
-  const popUpForm = document.querySelector("#popUpGetTuch");
-  const closPopup = document.querySelector("#clsPop");
-  openPopup.forEach((popUp) => {
-    popUp.addEventListener("click", () => {
-      popUpForm.style.display = "block";
-    });
-    closPopup.addEventListener("click", () => {
-      popUpForm.style.display = "none";
-    });
-  });
   //TOGGLE-MENU
   const toggleBtn = document.querySelector("#desktop_ham");
   const mobileMenu = document.querySelector(".menu_bar ul.menu");

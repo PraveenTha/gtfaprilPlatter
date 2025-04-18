@@ -1,526 +1,765 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Platter_April</title>
-  <link rel="shortcut icon" href="img/gtf_favicon.svg" type="image/x-icon" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&amp;display=swap" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <title>Real-estate</title>
-</head>
-
-<body>
-  <div class="site-wrapper">
-    <!-- Header section -->
-    <header id="header" class="header-section section-p2">
-      <div class="nav_bar">
-        <div class="logo">
-          <a href="#home">
-            <img src="img/logo.png" alt="logo" />
-          </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Platter_April</title>
+    <link rel="shortcut icon" href="img/gtf_favicon.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <link rel="preload" as="image" href="img/banner-img/banner-1.webp" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Real-estate</title>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <!-- Header section -->
+      <header id="header" class="header-section section-p2">
+        <div class="nav_bar">
+          <div class="logo">
+            <a href="#home">
+              <img src="img/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="menu_bar">
+            <ul class="menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#project">Our project</a></li>
+              <li><a href="#amenities">Amenities</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+            </ul>
+            <div id="desktop_ham" class="contact">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+              <div class="line line3"></div>
+            </div>
+          </div>
         </div>
-        <div class="menu_bar">
-          <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#project">Our project</a></li>
-            <li><a href="#amenities">Amenities</a></li>
-            <li><a href="#gallery">Gallery</a></li>
+      </header>
+      <!-- Hero section -->
+      <section id="home" class="hero-section">
+        <div class="main_banner" id="mainBanner">
+          <!-- banner-show priview -->
+          <ul class="main_slider">
+            <li class="slide-item show_banner">
+              <img
+                src="img/banner-img/banner-1.webp"
+                alt="Banner Image"
+                loading="eager"
+                decoding="async"
+                width="1920"
+                height="800"
+                class="img-fluid"
+              />
+              <div class="project_info">
+                <img
+                  src="img/logo_black.png"
+                  alt="project-logo"
+                  class="project-logo"
+                  width="200"
+                />
+                <h2 class="project_name">SKA Metro Ville Eta 2</h2>
+                <p class="project_loctaion">Sector 65, Gurgaon</p>
+                <p class="project_type">4.5 BHK + Servant Apartmenta</p>
+                <p class="project_price">8.99 Cr* Onwards</p>
+                <p class="project_status">New Launch</p>
+                <div class="buttons">
+                  <button
+                    class="open_popup"
+                    data-project-id="skaProject2"
+                    data-project-name="SKA Metro Ville Eta 2"
+                    data-project-image="img/banner-img/banner-1.webp"
+                    data-project-loctaion="Sector 65, Gurgaon"
+                    data-project-type="4.5 BHK + Servant Apartments"
+                    data-project-price="8.99 Cr* Onwards"
+                    data-project-status="New Launch"
+                  >
+                    Know More
+                  </button>
+                  <button class="redit_link">Intrested</button>
+                </div>
+              </div>
+            </li>
+            <li class="slide-item">
+              <img
+                src="img/banner-img/banner-2.webp"
+                alt="Banner Image"
+                loading="eager"
+                decoding="async"
+                width="1920"
+                height="800"
+                class="img-fluid"
+              />
+              <div class="project_info">
+                <img
+                  src="img/logo_black.png"
+                  alt="project-logo"
+                  class="project-logo"
+                  width="200"
+                />
+                <h2 class="project_name">SKA Metro Ville Eta 3</h2>
+                <p class="project_loctaion">Sector 65, Gurgaon</p>
+                <p class="project_type">4.5 BHK + Servant Apartmenta</p>
+                <p class="project_price">8.99 Cr* Onwards</p>
+                <p class="project_status">New Launch</p>
+                <div class="buttons">
+                  <button
+                    class="open_popup"
+                    data-project-id="skaProject3"
+                    data-project-name="SKA Metro Ville Eta 3"
+                    data-project-image="img/banner-img/banner-2.webp"
+                    data-project-loctaion="Sector 65, Gurgaon"
+                    data-project-type="4.5 BHK + Servant Apartments"
+                    data-project-price="8.99 Cr* Onwards"
+                    data-project-status="New Launch"
+                  >
+                    Know More
+                  </button>
+                  <button class="redit_link">Intrested</button>
+                </div>
+              </div>
+            </li>
+            <li class="slide-item">
+              <img
+                src="img/banner-img/banner-3.webp"
+                alt="Banner Image"
+                loading="eager"
+                decoding="async"
+                width="1920"
+                height="800"
+                class="img-fluid"
+              />
+              <div class="project_info">
+                <img
+                  src="img/logo_black.png"
+                  alt="project-logo"
+                  class="project-logo"
+                  width="200"
+                />
+                <h2 class="project_name">SKA Metro Ville Eta 4</h2>
+                <p class="project_loctaion">Sector 65, Gurgaon</p>
+                <p class="project_type">4.5 BHK + Servant Apartmenta</p>
+                <p class="project_price">8.99 Cr* Onwards</p>
+                <p class="project_status">New Launch</p>
+                <div class="buttons">
+                  <button
+                    class="open_popup"
+                    data-project-id="skaProject4"
+                    data-project-name="SKA Metro Ville Eta 4"
+                    data-project-image="img/banner-img/banner-3.webp"
+                    data-project-loctaion="Sector 65, Gurgaon"
+                    data-project-type="4.5 BHK + Servant Apartments"
+                    data-project-price="8.99 Cr* Onwards"
+                    data-project-status="New Launch"
+                  >
+                    Know More
+                  </button>
+                  <button class="redit_link">Intrested</button>
+                </div>
+              </div>
+            </li>
+            <li class="slide-item">
+              <img
+                src="img/banner-img/banner-4.webp"
+                alt="Banner Image"
+                loading="eager"
+                decoding="async"
+                width="1920"
+                height="800"
+                class="img-fluid"
+              />
+              <div class="project_info">
+                <img
+                  src="img/logo_black.png"
+                  alt="project-logo"
+                  class="project-logo"
+                  width="200"
+                />
+                <h2 class="project_name">SKA Metro Ville Eta 5</h2>
+                <p class="project_loctaion">Sector 65, Gurgaon</p>
+                <p class="project_type">4.5 BHK + Servant Apartmenta</p>
+                <p class="project_price">8.99 Cr* Onwards</p>
+                <p class="project_status">New Launch</p>
+                <div class="buttons">
+                  <button
+                    class="open_popup"
+                    data-project-id="skaProject5"
+                    data-project-name="SKA Metro Ville Eta 5"
+                    data-project-image="img/banner-img/banner-4.webp"
+                    data-project-loctaion="Sector 65, Gurgaon"
+                    data-project-type="4.5 BHK + Servant Apartments"
+                    data-project-price="8.99 Cr* Onwards"
+                    data-project-status="New Launch"
+                  >
+                    Know More
+                  </button>
+                  <button class="redit_link">Intrested</button>
+                </div>
+              </div>
+            </li>
           </ul>
-          <div id="desktop_ham" class="contact">
-            <div class="line line1"></div>
-            <div class="line line2"></div>
-            <div class="line line3"></div>
-          </div>
+          <!-- banner-previwe-list -->
+          <ul class="slide-priviewer">
+            <li class="prv-list show_active">
+              <img src="img/banner-img/banner-1.webp" alt="Banner Image" />
+            </li>
+            <li class="prv-list">
+              <img src="img/banner-img/banner-2.webp" alt="Banner Image" />
+            </li>
+            <li class="prv-list">
+              <img src="img/banner-img/banner-3.webp" alt="Banner Image" />
+            </li>
+            <li class="prv-list">
+              <img src="img/banner-img/banner-4.webp" alt="Banner Image" />
+            </li>
+          </ul>
         </div>
-      </div>
-    </header>
-    <!-- Hero section -->
-    <section id="home" class="hero-section">
-      <div class="main_banner" id="mainBanner">
-        <!-- banner-show priview -->
-        <ul class="main_slider">
-          <li class="slide-item show_banner">
-            <img src="img/banner-img/banner-1.webp" alt="" />
-            <div class="project_info">
-              <img src="" alt="" class="project-logo" />
-              <h2 class="project_name">SKA Metro Ville Eta 2</h2>
-              <p class="project_loctaion">Sector 65, Gurgaon</p>
-              <p class="project_type">4.5 BHK + Servant Apartmenta</p>
-              <p class="project_price">8.99 Cr* Onwards</p>
-              <p class="project_status">New Launch</p>
-              <div class="buttons">
-                <button class="open_popup" id="pro1">Know More</button>
-                <button class="redit_link">Intrested</button>
-              </div>
-            </div>
-          </li>
-          <li class="slide-item">
-            <img src="img/banner-img/banner-2.webp" alt="" />
-            <div class="project_info">
-              <img src="" alt="" class="project-logo" />
-              <h2 class="project_name">SKA Metro Ville Eta 3</h2>
-              <p class="project_loctaion">Sector 65, Gurgaon</p>
-              <p class="project_type">4.5 BHK + Servant Apartmenta</p>
-              <p class="project_price">8.99 Cr* Onwards</p>
-              <p class="project_status">New Launch</p>
-              <div class="buttons">
-                <button class="open_popup" id="pro1">Know More</button>
-                <button class="redit_link">Intrested</button>
-              </div>
-            </div>
-          </li>
-          <li class="slide-item">
-            <img src="img/banner-img/banner-3.webp" alt="" />
-            <div class="project_info">
-              <img src="" alt="" class="project-logo" />
-              <h2 class="project_name">SKA Metro Ville Eta 4</h2>
-              <p class="project_loctaion">Sector 65, Gurgaon</p>
-              <p class="project_type">4.5 BHK + Servant Apartmenta</p>
-              <p class="project_price">8.99 Cr* Onwards</p>
-              <p class="project_status">New Launch</p>
-              <div class="buttons">
-                <button class="open_popup" id="pro1">Know More</button>
-                <button class="redit_link">Intrested</button>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <!-- banner-previwe-list -->
-        <ul class="slide-priviewer">
-          <li class="prv-list show_active">
-            <img src="img/banner-img/banner-1.webp" alt="" />
-          </li>
-          <li class="prv-list">
-            <img src="img/banner-img/banner-2.webp" alt="" />
-          </li>
-          <li class="prv-list">
-            <img src="img/banner-img/banner-3.webp" alt="" />
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- Overview-section -->
-    <section id="overview" class="overview-section section-p2">
-      <h2 class="heading">
-        <strong>
-          <span class="text-white">Over</span> <span>View</span></strong>
-      </h2>
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-xl-6">
-          <div class="overview-img">
-            <img src="img/overview.jpg" alt="overview" />
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-12 col-md-6 col-xl-6">
-          <div class="overview-contant">
-            <h2 class="overview_head">SKA Metro Ville Eta 2</h2>
-            <div class="over_loc">
-              <span class="material-symbols-outlined"> pin_drop </span>
-              Greater Noida
-            </div>
-            <p>
-              Immerse into the uncompromised sophisticated lifestyle that is
-              hard to match while enjoying the serenity of nature from the
-              comfort of your home at SKA Metro Ville Eta 2 a signature luxury
-              apartment project promising a holistic living experience. This
-              ambitious pre-launch new luxury residential venture of SKA Group
-              offers 3 BHK and 4 BHK premium apartments equipped with modern
-              amenities and smart home automation. With an unbeatable
-              pre-launch price the project stands out as a testament to elite
-              living.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Our project -->
-    <section id="project" class="our_project_section section-p1">
-      <h2 class="heading text-center">
-        Our <span class="text-white">Projects</span>
-      </h2>
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 mb-4">
-          <div class="cards">
-            <div class="card-info">
-              <h3 class="card_head">SKA Metro Ville Eta 2</h3>
-              <p class="card_loctaion">Sector 65, Gurgaon</p>
-              <p class="card_type">4.5 BHK + Servant Apartments</p>
-              <p class="card_price">8.99 Cr* Onwards</p>
-              <p class="card_status">New Launch</p>
-            </div>
-            <div class="card-img">
-              <img src="img/banner-img/banner-1.webp" alt="" />
-            </div>
-            <div class="buttons card-btn">
-              <button class="open_popup" data-project-id="ska-metro-eta2" data-project-name="SKA Metro Ville Eta 2"
-                data-project-image="img/banner-img/banner-1.webp">
-                Know More
-              </button>
-              <button class="redit_link">Interested</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 mb-4">
-          <div class="cards">
-            <div class="card-info">
-              <h3 class="card_head">SKA Metro Ville Eta 3</h3>
-              <p class="card_loctaion">Sector 65, Gurgaon</p>
-              <p class="card_type">4.5 BHK + Servant Apartments</p>
-              <p class="card_price">8.99 Cr* Onwards</p>
-              <p class="card_status">New Launch</p>
-            </div>
-            <div class="card-img">
-              <img src="img/banner-img/banner-2.webp" alt="" />
-            </div>
-            <div class="buttons card-btn">
-              <button class="open_popup" data-project-id="ska-metro-eta3" data-project-name="SKA Metro Ville Eta 3"
-                data-project-image="img/banner-img/banner-2.webp">
-                Know More
-              </button>
-              <button class="redit_link">Interested</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 mb-4">
-          <div class="cards">
-            <div class="card-info">
-              <h3 class="card_head">SKA Metro Ville Eta 4</h3>
-              <p class="card_loctaion">Sector 65, Gurgaon</p>
-              <p class="card_type">4.5 BHK + Servant Apartments</p>
-              <p class="card_price">8.99 Cr* Onwards</p>
-              <p class="card_status">New Launch</p>
-            </div>
-            <div class="card-img">
-              <img src="img/banner-img/banner-3.webp" alt="" />
-            </div>
-            <div class="buttons card-btn">
-              <button class="open_popup" data-project-id="ska-metro-eta4" data-project-name="SKA Metro Ville Eta 4"
-                data-project-image="img/banner-img/banner-3.webp">
-                Know More
-              </button>
-              <button class="redit_link">Interested</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 mb-4">
-          <div class="cards">
-            <div class="card-info">
-              <h3 class="card_head">SKA Metro Ville Eta 5</h3>
-              <p class="card_loctaion">Sector 65, Gurgaon</p>
-              <p class="card_type">4.5 BHK + Servant Apartments</p>
-              <p class="card_price">8.99 Cr* Onwards</p>
-              <p class="card_status">New Launch</p>
-            </div>
-            <div class="card-img">
-              <img src="img/banner-img/banner-1.webp" alt="" />
-            </div>
-            <div class="buttons card-btn">
-              <button class="open_popup" data-project-id="ska-metro-eta5" data-project-name="SKA Metro Ville Eta 5"
-                data-project-image="img/banner-img/banner-1.webp">
-                Know More
-              </button>
-              <button class="redit_link">Interested</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Amenities section -->
-    <section id="amenities" class="amenities-section section-p2">
-      <div class="amenities-head mb-4 text-center">
-        <h3>
-          <strong><span class="text-white">Amenities</span>
-            <span class="material-symbols-outlined"> arrow_forward </span>
-          </strong>
-        </h3>
-        <h2 class="grn">
-          <span>Experience Luxury Living</span>
+      </section>
+      <!-- Overview-section -->
+      <section id="overview" class="overview-section section-p2">
+        <h2 class="heading">
+          <strong>
+            <span class="text-white">Over</span> <span>View</span></strong
+          >
         </h2>
-      </div>
-      <div class="sliderInf">
-        <div class="slide_box">
-          <div class="slides">
-            <img src="img/amenities/img1.jpg" alt="" />
-            <div class="aminities_contant">
-              <p>Fitness Center</p>
-            </div>
-          </div>
-          <div class="slides">
-            <img src="img/amenities/img2.jpg" alt="" />
-            <div class="aminities_contant">
-              <p>Rooftop Haven an Infinity Pool</p>
-            </div>
-          </div>
-          <div class="slides">
-            <img src="img/amenities/img3.jpg" alt="" />
-            <div class="aminities_contant">
-              <p>Smart Home Technology Integration</p>
-            </div>
-          </div>
-          <div class="slides">
-            <img src="img/amenities/img4.jpg" alt="" />
-            <div class="aminities_contant">
-              <p>Parking</p>
-            </div>
-          </div>
-          <div class="slides">
-            <img src="img/amenities/img5.jpg" alt="" />
-            <div class="aminities_contant">
-              <p>Party Hall & Pantry</p>
-            </div>
-          </div>
-          <div class="slides">
-            <img src="img/amenities/img6.jpg" alt="" />
-            <div class="aminities_contant">
-              <p>Kids Play Area</p>
-            </div>
-          </div>
-          <div class="slides">
-            <img src="img/amenities/img7.jpg" alt="" />
-            <div class="aminities_contant">
-              <p>Concierge Services</p>
-            </div>
-          </div>
-          <div class="slides">
-            <img src="img/amenities/img8.jpg" alt="" />
-            <div class="aminities_contant">
-              <p>Residents club</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Gallery section -->
-    <section id="gallery" class="gallery-section section-p2">
-      <h2 class="heading">
-        <strong><span>Gallery</span></strong>
-      </h2>
-      <div class="parent">
-        <div class="div1"><img src="img/gallery/img1.jpg" alt="" /></div>
-        <div class="div2"><img src="img/gallery/img2.jpg" alt="" /></div>
-        <div class="div3"><img src="img/gallery/img3.jpg" alt="" /></div>
-        <div class="div4"><img src="img/gallery/img4.jpg" alt="" /></div>
-        <div class="div5"><img src="img/gallery/img5.jpg" alt="" /></div>
-        <div class="div6"><img src="img/gallery/img6.jpg" alt="" /></div>
-        <div class="div7"><img src="img/gallery/img7.jpg" alt="" /></div>
-        <div class="div8"><img src="img/gallery/img8.jpg" alt="" /></div>
-      </div>
-    </section>
-    <!-- Get in Tuch -->
-    <section id="get-tuch" class="get-tuch-section section-p2">
-      <div class="get_in_tuch text-center">
-        <h2 class="grn">Get in Touch</h2>
-        <p class="text-white">
-          Please submit your contact information and one of our sales
-          associates will be in touch with you shortly
-        </p>
-
-        <div class="col-12">
-          <form action="" class="form-section">
-            <div class="input-group mt-3 mb-3">
-              <input type="text" id="qSenderNamemodal1" name="name" class="get-tuch" required="" data-exists="false" />
-              <label for="name" class="input-group_label">Name</label>
-            </div>
-
-            <div class="input-group mt-3 mb-3">
-              <input type="text" id="qEmailIDmodal1" name="email" class="get-tuch" required="" data-exists="false" />
-              <label for="email" class="input-group_label">email</label>
-            </div>
-
-            <div class="input-group mt-3 mb-3">
-              <input type="text" id="qMobileNomodal1" name="phone" class="get-tuch" required="" data-exists="false" />
-              <label for="phone" class="input-group_label">phone</label>
-            </div>
-
-            <div class="input-group mt-3 mb-3">
-              <input type="text" id="qMessagemodal1" name="message..." class="get-tuch" required=""
-                data-exists="false" />
-              <label for="message" class="input-group_label">Enter Message</label>
-            </div>
-
-            <button class="btn_submit mt-3 mb-3 get-tuch-btn" id="SubmitQuerymodal1">
-              Submit
-            </button>
-          </form>
-        </div>
-        <div class="inp-box d-flex align-items-baseline justify-content-center">
-          <input type="checkbox" checked="" id="vehicle1" name="vehicle1" value="form-checkbox" />
-          <label for="vehicle1" class="inp-txt text-white" style="font-size: 12px; margin: 0px 8px">
-            I authorize company representatives to Call, SMS, Email or
-            WhatsApp me about its products and offers. This consent <br />
-            overrides any registration for DNC/NDNC.
-          </label>
-        </div>
-      </div>
-    </section>
-    <!-- popup Form -->
-    <section id="popUpGetTuch" class="PopUpget-tuch-section section-p2 display-n">
-     
-
-      <div class="get_in_tuch text-center">
         <div class="row">
- <div class="close_pop" id="clsPop">
-        <span class="material-symbols-outlined">close</span>
-      </div>
-          <!-- Dynamic Image -->
           <div class="col-12 col-sm-12 col-md-6 col-xl-6">
-            <img src="img/banner-img/banner-1.webp" alt="Project Image" id="popupProjectImage" />
+            <div class="overview-img">
+              <img src="img/overview.jpg" alt="overview" />
+            </div>
           </div>
 
-          <!-- Contact Form -->
           <div class="col-12 col-sm-12 col-md-6 col-xl-6">
-            <!-- ✅ Only one heading here now -->
-            <h2 class="grn" id="popupProjectName">Project Name</h2>
-
-            <p class="text-white">
-              Please submit your contact information and one of our sales
-              associates will be in touch with you shortly
-            </p>
-
-            <div class="col-12">
-              <form action="" class="form-section">
-                <div class="input-group mt-3 mb-3">
-                  <input type="text" id="qSenderNamemodal2" name="name" class="get-tuch" required />
-                  <label for="qSenderNamemodal2" class="input-group_label">Name</label>
-                </div>
-
-                <div class="input-group mt-3 mb-3">
-                  <input type="text" id="qEmailIDmodal2" name="email" class="get-tuch" required />
-                  <label for="qEmailIDmodal2" class="input-group_label">Email</label>
-                </div>
-
-                <div class="input-group mt-3 mb-3">
-                  <input type="text" id="qMobileNomodal2" name="phone" class="get-tuch" required />
-                  <label for="qMobileNomodal2" class="input-group_label">Phone</label>
-                </div>
-
-                <div class="input-group mt-3 mb-3">
-                  <input type="text" id="qMessagemodal2" name="message" class="get-tuch" required />
-                  <label for="qMessagemodal2" class="input-group_label">Enter Message</label>
-                </div>
-
-                <button class="btn_submit mt-3 mb-3 get-tuch-btn" id="SubmitQuerymodal2">
-                  Submit
-                </button>
-              </form>
-            </div>
-
-            <div class="inp-box d-flex align-items-baseline justify-content-center">
-              <input type="checkbox" checked id="vehicle1" name="vehicle1" value="form-checkbox" />
-              <label for="vehicle1" class="inp-txt text-white" style="font-size: 10px; margin: 0 5px">
-                I authorize company representatives to Call, SMS, Email or WhatsApp me about its
-                products and offers. This consent <br />
-                overrides any registration for DNC/NDNC.
-              </label>
+            <div class="overview-contant">
+              <h2 class="overview_head">SKA Metro Ville Eta 2</h2>
+              <div class="over_loc">
+                <span class="material-symbols-outlined"> pin_drop </span>
+                Greater Noida
+              </div>
+              <p>
+                Immerse into the uncompromised sophisticated lifestyle that is
+                hard to match while enjoying the serenity of nature from the
+                comfort of your home at SKA Metro Ville Eta 2 a signature luxury
+                apartment project promising a holistic living experience. This
+                ambitious pre-launch new luxury residential venture of SKA Group
+                offers 3 BHK and 4 BHK premium apartments equipped with modern
+                amenities and smart home automation. With an unbeatable
+                pre-launch price the project stands out as a testament to elite
+                living.
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- Our project -->
+      <section id="project" class="our_project_section section-p1">
+        <h2 class="heading text-center">
+          Our <span class="text-white">Projects</span>
+        </h2>
+        <div class="row">
+          <!-- defoult project-->
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 mb-4 d-none">
+            <div class="cards d-none" id="skaProject_plater">
+              <div class="card-info">
+                <h3 class="card_head">SKA Metro Ville Eta Platter</h3>
+                <p class="card_loctaion">Sector 65, Gurgaon</p>
+                <p class="card_type">4.5 BHK + Servant Apartments</p>
+                <p class="card_price">8.99 Cr* Onwards</p>
+                <p class="card_status">New Launch</p>
+              </div>
+              <div class="card-img">
+                <img src="img/banner-img/banner-3.webp" alt="Banner Image" />
+              </div>
+              <div class="buttons card-btn">
+                <button
+                  class="open_popup"
+                  id="defaultPopupTrigger"
+                  data-project-id="skaProject"
+                  data-project-name="SKA Metro Ville Eta Platter"
+                  data-project-loctaion="Gurgaon"
+                  data-project-type="1, 2, 3, 3.5, 4, 4.5 BHK + Servant Apartments"
+                  data-project-price="5.99 Cr* Onwards"
+                  data-project-status="New Launch"
+                >
+                  Know More
+                </button>
+                <button class="redit_link">Interested</button>
+              </div>
+            </div>
+          </div>
+          <!-- projects -->
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 mb-4">
+            <div class="cards">
+              <div class="card-info">
+                <h3 class="card_head">SKA Metro Ville Eta 2</h3>
+                <p class="card_loctaion">Sector 65, Gurgaon</p>
+                <p class="card_type">4.5 BHK + Servant Apartments</p>
+                <p class="card_price">8.99 Cr* Onwards</p>
+                <p class="card_status">New Launch</p>
+              </div>
+              <div class="card-img">
+                <img src="img/banner-img/banner-1.webp" alt="Banner Image" />
+              </div>
+              <div class="buttons card-btn">
+                <button
+                  class="open_popup"
+                  data-project-id="skaProject2"
+                  data-project-name="SKA Metro Ville Eta 2"
+                  data-project-image="img/banner-img/banner-1.webp"
+                  data-project-loctaion="Sector 65, Gurgaon"
+                  data-project-type="4.5 BHK + Servant Apartments"
+                  data-project-price="8.99 Cr* Onwards"
+                  data-project-status="New Launch"
+                >
+                  Know More
+                </button>
+                <button class="redit_link">Interested</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 mb-4">
+            <div class="cards">
+              <div class="card-info">
+                <h3 class="card_head">SKA Metro Ville Eta 3</h3>
+                <p class="card_loctaion">Sector 65, Gurgaon</p>
+                <p class="card_type">4.5 BHK + Servant Apartments</p>
+                <p class="card_price">8.99 Cr* Onwards</p>
+                <p class="card_status">New Launch</p>
+              </div>
+              <div class="card-img">
+                <img src="img/banner-img/banner-2.webp" alt="Banner Image" />
+              </div>
+              <div class="buttons card-btn">
+                <button
+                  class="open_popup"
+                  data-project-id="skaProject3"
+                  data-project-name="SKA Metro Ville Eta 3"
+                  data-project-image="img/banner-img/banner-2.webp"
+                  data-project-loctaion="Sector 65, Gurgaon"
+                  data-project-type="4.5 BHK + Servant Apartments"
+                  data-project-price="8.99 Cr* Onwards"
+                  data-project-status="New Launch"
+                >
+                  Know More
+                </button>
+                <button class="redit_link">Interested</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 mb-4">
+            <div class="cards">
+              <div class="card-info">
+                <h3 class="card_head">SKA Metro Ville Eta 4</h3>
+                <p class="card_loctaion">Sector 65, Gurgaon</p>
+                <p class="card_type">4.5 BHK + Servant Apartments</p>
+                <p class="card_price">8.99 Cr* Onwards</p>
+                <p class="card_status">New Launch</p>
+              </div>
+              <div class="card-img">
+                <img src="img/banner-img/banner-3.webp" alt="Banner Image" />
+              </div>
+              <div class="buttons card-btn">
+                <button
+                  class="open_popup"
+                  data-project-id="skaProject4"
+                  data-project-name="SKA Metro Ville Eta 4"
+                  data-project-image="img/banner-img/banner-3.webp"
+                  data-project-loctaion="Sector 65, Gurgaon"
+                  data-project-type="4.5 BHK + Servant Apartments"
+                  data-project-price="8.99 Cr* Onwards"
+                  data-project-status="New Launch"
+                >
+                  Know More
+                </button>
+                <button class="redit_link">Interested</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 mt-4 mb-4">
+            <div class="cards">
+              <div class="card-info">
+                <h3 class="card_head">SKA Metro Ville Eta 5</h3>
+                <p class="card_loctaion">Sector 65, Gurgaon</p>
+                <p class="card_type">4.5 BHK + Servant Apartments</p>
+                <p class="card_price">8.99 Cr* Onwards</p>
+                <p class="card_status">New Launch</p>
+              </div>
+              <div class="card-img">
+                <img src="img/banner-img/banner-4.webp" alt="Banner Image" />
+              </div>
+              <div class="buttons card-btn">
+                <button
+                  class="open_popup"
+                  data-project-id="skaProject5"
+                  data-project-name="SKA Metro Ville Eta 5"
+                  data-project-image="img/banner-img/banner-4.webp"
+                  data-project-loctaion="Sector 65, Gurgaon"
+                  data-project-type="4.5 BHK + Servant Apartments"
+                  data-project-price="8.99 Cr* Onwards"
+                  data-project-status="New Launch"
+                >
+                  Know More
+                </button>
+                <button class="redit_link">Interested</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Amenities section -->
+      <section id="amenities" class="amenities-section section-p2">
+        <div class="amenities-head mb-4 text-center">
+          <h3>
+            <strong
+              ><span class="text-white">Amenities</span>
+              <span class="material-symbols-outlined"> arrow_forward </span>
+            </strong>
+          </h3>
+          <h2 class="grn">
+            <span>Experience Luxury Living</span>
+          </h2>
+        </div>
+        <div class="sliderInf">
+          <div class="slide_box">
+            <div class="slides">
+              <img src="img/amenities/img1.webp" alt="Amenities Image" />
+              <div class="aminities_contant">
+                <p>Fitness Center</p>
+              </div>
+            </div>
+            <div class="slides">
+              <img src="img/amenities/img2.webp" alt="Amenities Image" />
+              <div class="aminities_contant">
+                <p>Rooftop Haven an Infinity Pool</p>
+              </div>
+            </div>
+            <div class="slides">
+              <img src="img/amenities/img3.webp" alt="Amenities Image" />
+              <div class="aminities_contant">
+                <p>Smart Home Technology Integration</p>
+              </div>
+            </div>
+            <div class="slides">
+              <img src="img/amenities/img4.webp" alt="Amenities Image" />
+              <div class="aminities_contant">
+                <p>Parking</p>
+              </div>
+            </div>
+            <div class="slides">
+              <img src="img/amenities/img5.webp" alt="Amenities Image" />
+              <div class="aminities_contant">
+                <p>Party Hall & Pantry</p>
+              </div>
+            </div>
+            <div class="slides">
+              <img src="img/amenities/img6.webp" alt="Amenities Image" />
+              <div class="aminities_contant">
+                <p>Kids Play Area</p>
+              </div>
+            </div>
+            <div class="slides">
+              <img src="img/amenities/img7.webp" alt="Amenities Image" />
+              <div class="aminities_contant">
+                <p>Concierge Services</p>
+              </div>
+            </div>
+            <div class="slides">
+              <img src="img/amenities/img8.webp" alt="Amenities Image" />
+              <div class="aminities_contant">
+                <p>Residents club</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery section -->
+      <section id="gallery" class="gallery-section section-p2">
+        <h2 class="heading">
+          <strong><span>Gallery</span></strong>
+        </h2>
+        <div class="parent">
+          <div class="div1">
+            <img src="img/gallery/img1.webp" alt="Gallery Image" />
+          </div>
+          <div class="div2">
+            <img src="img/gallery/img2.webp" alt="Gallery Image" />
+          </div>
+          <div class="div3">
+            <img src="img/gallery/img3.webp" alt="Gallery Image" />
+          </div>
+          <div class="div4">
+            <img src="img/gallery/img4.webp" alt="Gallery Image" />
+          </div>
+          <div class="div5">
+            <img src="img/gallery/img5.webp" alt="Gallery Image" />
+          </div>
+          <div class="div6">
+            <img src="img/gallery/img6.webp" alt="Gallery Image" />
+          </div>
+          <div class="div7">
+            <img src="img/gallery/img7.webp" alt="Gallery Image" />
+          </div>
+          <div class="div8">
+            <img src="img/gallery/img8.webp" alt="Gallery Image" />
+          </div>
+        </div>
+      </section>
+      <!-- Get in Tuch -->
+      <section id="get-tuch" class="get-tuch-section section-p2">
+        <div class="get_in_tuch text-center">
+          <h2 class="grn">Get in Touch</h2>
+          <p class="text-white">
+            Please submit your contact information and one of our sales
+            associates will be in touch with you shortly
+          </p>
+          <div class="col-12">
+            <form action="" class="form-section">
+              <div class="input-group mt-3 mb-3">
+                <input
+                  type="text"
+                  id="name_Default"
+                  name="name"
+                  class="get-tuch"
+                  required=""
+                  data-exists="false"
+                />
+                <label for="name" class="input-group_label">Name</label>
+              </div>
+              <div class="input-group mt-3 mb-3">
+                <input
+                  type="text"
+                  id="email_Default"
+                  name="email"
+                  class="get-tuch"
+                  required=""
+                  data-exists="false"
+                />
+                <label for="email" class="input-group_label">email</label>
+              </div>
+              <div class="input-group mt-3 mb-3">
+                <input
+                  type="text"
+                  id="phone_Default"
+                  name="phone"
+                  class="get-tuch"
+                  required=""
+                  data-exists="false"
+                />
+                <label for="phone" class="input-group_label">phone</label>
+              </div>
+              <div class="input-group mt-3 mb-3">
+                <input
+                  type="text"
+                  id="message_Default"
+                  name="message..."
+                  class="get-tuch"
+                  required=""
+                  data-exists="false"
+                />
+                <label for="message" class="input-group_label"
+                  >Enter Message</label
+                >
+              </div>
 
+              <button
+                class="btn_submit mt-3 mb-3 get-tuch-btn"
+                id="submit_Default"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+          <div
+            class="inp-box d-flex align-items-baseline justify-content-center"
+          >
+            <input
+              type="checkbox"
+              checked=""
+              id="vehicle1"
+              name="vehicle1"
+              value="form-checkbox"
+            />
+            <label
+              for="vehicle1"
+              class="inp-txt text-white"
+              style="font-size: 12px; margin: 0px 8px"
+            >
+              I authorize company representatives to Call, SMS, Email or
+              WhatsApp me about its products and offers. This consent <br />
+              overrides any registration for DNC/NDNC.
+            </label>
+          </div>
+        </div>
+      </section>
+      <!-- popup Form -->
+      <section
+        id="popUpGetTuch"
+        class="PopUpget-tuch-section section-p2 display-n"
+      >
+        <div class="get_in_tuch text-center">
+          <div class="row">
+            <div class="close_pop" id="clsPop">
+              <span class="material-symbols-outlined">close</span>
+            </div>
+            <!-- Dynamic Image -->
+            <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+              <div class="rlvt">
+                <img
+                  src="img/banner-img/banner-1.webp"
+                  alt="Project Image"
+                  id="popupProjectImage"
+                />
+                <div class="project_info_pop">
+                  <h3 class="grn" id="popupProjectName">Project Name</h3>
+                  <p class="text-white" id="popupProjectLoctaion">
+                    <strong>Location :</strong> Sector 65, Gurgaon
+                  </p>
+                  <p class="text-white" id="popupProjectType">
+                    <strong>Type :</strong> 4.5 BHK + Servant
+                  </p>
+                  <p class="text-white" id="popupProjectPrice">
+                    <strong>Starting Price :</strong> 8.99 Cr* Onwards
+                  </p>
+                  <p class="text-white" id="popupProjectStatus">
+                    <strong>Status :</strong> New Launch
+                  </p>
+                </div>
+              </div>
+            </div>
 
-    <!-- footer section -->
-    <footer id="footer" class="text-center footer_section section-p2">
-      <p class="Project_rera"><strong>Project Rera No :</strong></p>
-      <p class="agent_rera"><strong>Agent Rera No :</strong></p>
-      <p class="disclaimer">
-        <strong>Disclaimer -</strong> The content provided on this website is
-        for information purposes only and does not constitute an offer to
-        avail any service. The prices mentioned are subject to change without
-        prior notice, and the availability of properties mentioned is not
-        guaranteed.
-      </p>
-      <div class="read-out" style="display: none">
-        <p>
-          The images displayed on the website are for representation purposes
-          only and may not reflect the actual properties accurately. Please
-          note that this is the official website of an authorized marketing
-          partner. We may share data with Real Estate Regulatory Authority
-          (RERA) registered brokers/companies for further processing as
-          required. We may also send updates and information to the mobile
-          number or email ID registered with us. All rights reserved. The
-          content, design, and information on this website are protected by
-          copyright and other intellectual property rights. Any unauthorized
-          use or reproduction of the content may violate applicable laws. For
-          accurate and up-to-date information regarding services, pricing,
-          availability, and any other details, it is advisable to contact us
-          directly through the provided contact information on this website.
-          Thank you for visiting our website.
+            <!-- Contact Form -->
+            <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+              <h3 class="text-white">Express Your Interest!</h3>
+
+              <div class="col-12">
+                <form action="" class="form-section">
+                  <div class="input-group mt-3 mb-3">
+                    <input type="text" class="get-tuch name-input" required />
+                    <label class="input-group_label name-label">Name</label>
+                  </div>
+
+                  <div class="input-group mt-3 mb-3">
+                    <input type="text" class="get-tuch email-input" required />
+                    <label class="input-group_label email-label">Email</label>
+                  </div>
+
+                  <div class="input-group mt-3 mb-3">
+                    <input type="text" class="get-tuch phone-input" required />
+                    <label class="input-group_label phone-label">Phone</label>
+                  </div>
+
+                  <div class="input-group mt-3 mb-3">
+                    <input
+                      type="text"
+                      class="get-tuch message-input"
+                      required
+                    />
+                    <label class="input-group_label message-label"
+                      >Enter Message</label
+                    >
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn_submit mt-3 mb-3 get-tuch-btn submit-button"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+
+              <div
+                class="inp-box d-flex align-items-baseline justify-content-center"
+              >
+                <input
+                  type="checkbox"
+                  checked
+                  id="vehicle1"
+                  name="vehicle1"
+                  value="form-checkbox"
+                />
+                <label
+                  for="vehicle1"
+                  class="inp-txt text-white"
+                  style="font-size: 10px; margin: 0 5px"
+                >
+                  I authorize company representatives to Call, SMS, Email or
+                  WhatsApp me about its products and offers. This consent <br />
+                  overrides any registration for DNC/NDNC.
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer section -->
+      <footer id="footer" class="text-center footer_section section-p2">
+        <p class="Project_rera"><strong>Project Rera No :</strong></p>
+        <p class="agent_rera"><strong>Agent Rera No :</strong></p>
+        <p class="disclaimer">
+          <strong>Disclaimer -</strong> The content provided on this website is
+          for information purposes only and does not constitute an offer to
+          avail any service. The prices mentioned are subject to change without
+          prior notice, and the availability of properties mentioned is not
+          guaranteed.
         </p>
-      </div>
-      <strong class="read-mor-les mt-2 mb-2" style="cursor: pointer">Read more</strong>
-      <p>
-        <a target="_blank" href="disclaimer.html">Disclaimer &amp; Privacy Policy</a>
-        | Digital Media Planned By
-        <a href="http://www.gtftechnologies.com/" target="_blank">
-          GTF Technologies</a>
-        <a href="https://www.google.com/partners/agency?id=6096246672" target="_blank">
-        </a>
-      </p>
-    </footer>
-  </div>
-
-  <div class="form_container" id="form_container"></div>
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-<script src="js/main.js"></script>
-
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const popup = document.getElementById("popUpGetTuch");
-    const closeBtn = document.getElementById("clsPop");
-    const msgInput = document.getElementById("qMessagemodal2");
-    const imageEl = document.getElementById("popupProjectImage");
-    const headingEl = document.getElementById("popupProjectName");
-
-    // Attach click listeners to all "Know More" buttons
-    document.querySelectorAll(".open_popup").forEach((button) => {
-      button.addEventListener("click", function () {
-        const projectId = this.getAttribute("data-project-id");
-        const projectName = this.getAttribute("data-project-name");
-        const projectImage = this.getAttribute("data-project-image");
-
-        // Show popup
-        popup.classList.remove("display-n");
-
-        // // Update message input with project name or ID
-        // if (msgInput) {
-        //   msgInput.value = `I am interested in project: ${projectName || projectId}`;
-        // }
-
-        // Update heading
-        if (headingEl && projectName) {
-          headingEl.textContent = projectName;
-        }
-
-        // Update image
-        if (projectImage && imageEl) {
-          imageEl.src = projectImage;
-        }
-      });
-    });
-
-    // Close popup
-    closeBtn.addEventListener("click", function () {
-      popup.classList.add("display-n");
-    });
-  });
-</script>
-
-
-</body>
-
-</html>
-
+        <div class="read-out" style="display: none">
+          <p>
+            The images displayed on the website are for representation purposes
+            only and may not reflect the actual properties accurately. Please
+            note that this is the official website of an authorized marketing
+            partner. We may share data with Real Estate Regulatory Authority
+            (RERA) registered brokers/companies for further processing as
+            required. We may also send updates and information to the mobile
+            number or email ID registered with us. All rights reserved. The
+            content, design, and information on this website are protected by
+            copyright and other intellectual property rights. Any unauthorized
+            use or reproduction of the content may violate applicable laws. For
+            accurate and up-to-date information regarding services, pricing,
+            availability, and any other details, it is advisable to contact us
+            directly through the provided contact information on this website.
+            Thank you for visiting our website.
+          </p>
+        </div>
+        <strong class="read-mor-les mt-2 mb-2" style="cursor: pointer"
+          >Read more</strong
+        >
+        <p>
+          <a target="_blank" href="disclaimer.html"
+            >Disclaimer &amp; Privacy Policy</a
+          >
+          | Digital Media Planned By
+          <a href="http://www.gtftechnologies.com/" target="_blank">
+            GTF Technologies</a
+          >
+          <a
+            href="https://www.google.com/partners/agency?id=6096246672"
+            target="_blank"
+          >
+          </a>
+        </p>
+      </footer>
+    </div>
+    <div class="form_container" id="form_container"></div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/formHendling.js"></script>
+  <script type="text/javascript" language="javascript" defer>
+    var versionUpdate = new Date().getTime();
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src =
+      "https://api2.gtftech.com/scripts/queryform.min.ssl.js?v=" +
+      versionUpdate;
+    document.body.appendChild(script);
+  </script>
 </html>
